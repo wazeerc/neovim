@@ -10,5 +10,8 @@ vim.opt.swapfile = false
 vim.opt.autoread = true
 vim.opt.mouse = "a"
 vim.opt.clipboard:append("unnamedplus")
+vim.opt.fillchars = { eob = " "}
+vim.opt.list = true
+vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
 vim.g.mapleader = " "
