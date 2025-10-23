@@ -15,3 +15,5 @@ vim.opt.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
 vim.g.mapleader = " "
+
+vim.keymap.set("n", "<C-t>", ":bn<cr>")
