@@ -1,16 +1,22 @@
-# Neovim config ⌨️
+# neovim mnml config
 
-### Install
+## Prerequisites:
 
-Neovim - https://neovim.io/
+1. [Neovim](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-download)
+2. [ripgrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation)
 
-ripgrep  — https://github.com/BurntSushi/ripgrep (Needed for Telescope's live grep)
+### LSPs:
 
+- Lua: [lua-language-server](https://luals.github.io/#neovim-install)
+- Python: [pyright](https://www.npmjs.com/package/pyright)
+- Typescript: [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server?tab=readme-ov-file#installing)
 
-Put the `init.lua` file and `lua` folder in the respective locations below:
+## Installation:
 
-- Windows (PowerShell):
-	- `%USERPROFILE%\AppData\Local\nvim\`
+Clone this repository in the appropriate Neovim config folder for your OS.
 
-- macOS / Linux:
-	- `~/.config/nvim/`
+- Windows (PowerShell): `%USERPROFILE%\AppData\Local\nvim\`
+
+- macOS / Linux: `~/.config/nvim/`
+
+_Optionally remove the `.git` folder to avoid tracking changes to this repository._

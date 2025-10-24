@@ -14,3 +14,4 @@ vim.opt.number = true
 
 require("vim-options")
 require("lazy").setup("plugins")
+require("core.lsp")
