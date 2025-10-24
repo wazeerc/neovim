@@ -2,7 +2,7 @@
 
 ### Install
 
-Neovim - https://neovim.io/
+Neovim — https://neovim.io/
 
 ripgrep  — https://github.com/BurntSushi/ripgrep (Needed for Telescope's live grep)
 
