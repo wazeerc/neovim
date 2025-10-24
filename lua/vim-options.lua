@@ -13,6 +13,7 @@ vim.opt.clipboard:append("unnamedplus")
 vim.opt.fillchars = { eob = " " }
 vim.opt.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+vim.opt.number = true
 
 vim.g.mapleader = " "
 
