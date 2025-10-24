@@ -2,7 +2,7 @@
 
 ## Prerequisites:
 
-1. [Neovim](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-download)
+1. [Neovim > v0.11](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-download)
 2. [ripgrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation)
 
 ### LSPs:
