@@ -11,6 +11,7 @@ vim.opt.autoindent = true
 vim.opt.autoread = true
 vim.opt.clipboard:append("unnamedplus")
 vim.opt.fillchars = { eob = " " }
+vim.opt.fixeol = false
 vim.opt.incsearch = true
 vim.opt.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
