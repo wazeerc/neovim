@@ -25,3 +25,4 @@ vim.opt.number = true
 vim.opt.scrolloff = 10
 vim.opt.smartcase = true
 vim.opt.swapfile = false
+vim.opt.termguicolors = true
