@@ -14,6 +14,7 @@ vim.keymap.set("n", "<C-t>", ":bn<cr>")
 vim.opt.autoindent = true
 vim.opt.autoread = true
 vim.opt.clipboard:append("unnamedplus")
+vim.opt.colorcolumn = "100"
 vim.opt.cursorline = true
 vim.opt.fillchars = { eob = " " }
 vim.opt.fixeol = false
