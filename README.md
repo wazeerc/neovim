@@ -7,7 +7,6 @@
 
 ### LSPs:
 
-- Lua: [lua-language-server](https://luals.github.io/#neovim-install)
 - Python: [pyright](https://www.npmjs.com/package/pyright)
 - Typescript: [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server?tab=readme-ov-file#installing)
 
