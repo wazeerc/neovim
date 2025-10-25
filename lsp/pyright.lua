@@ -1,9 +1,10 @@
 return {
   cmd = {
-    "pyright",
+    "pyright-langserver",
+    "--stdio"
   },
   filetypes = {
-    "python",
+    "python"
   },
   root_markers = {
     ".git",
@@ -11,5 +12,13 @@ return {
     "requirements.txt",
   },
   single_file_support = true,
-  log_level = vim.lsp.protocol.MessageType.Warning,
+  settings = {
+    python = {
+      analysis = {
+        autoSearchPaths = true,
+        diagnosticMode = "workspace",
+        useLibraryCodeForTypes = true,
+      }
+    }
+  }
 }
